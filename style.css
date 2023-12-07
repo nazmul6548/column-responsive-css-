@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.column{
+    background-color: aqua;
+}
+.column{
+    background-color: blueviolet;
+}
+.column{
+    background-color: coral;
+}
+.column{
+    background-color: purple;
+}
+.column{
+    flex: 25%;
+    padding: 10px;
+}
+@media screen and (max-width: 954px{
+    column{
+        flex: 25%;
+        padding: 50px;
+    }
+}
+
